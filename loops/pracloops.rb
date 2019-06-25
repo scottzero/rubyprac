@@ -10,7 +10,7 @@
       puts i
     end
   end
-=end
+
 
 #control flow and loops
 #if statment
@@ -103,3 +103,28 @@ box3 = ["dog","cat","moose","panda"]
 (0..3).each do |i| #this is called a range,
   puts "#{i}"
 end
+
+
+
+
+#example 12
+p = 3
+o = 9
+
+if p > o
+  p "hi"
+else
+  p "no"
+end
+
+
+
+#example 13 infinite loop
+while true
+puts "4..."
+end
+
+=end
+
+
+#example 14

@@ -1,0 +1,12 @@
+-methods are the same as functions.
+
+-they are re-usable code, basically a behavior of what
+the object can do.
+
+-the last line of code in the method in ruby, is what will be returned.
+
+
+Example
+def drink_soda
+
+end

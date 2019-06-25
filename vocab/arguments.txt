@@ -1,0 +1,8 @@
+arguments are inputs to methods.
+
+
+def drink_soda(count)
+  count.times
+  puts "burp"
+  end
+end 
