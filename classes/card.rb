@@ -1,28 +1,47 @@
 
 class Card
 
-def initialize(question, answer)
-  @question = question
+def initialize(question, answer, category) #init variables for card class
+  @question = question #assigning inits
   @answer = answer
-end
+  @category = category
+end #end init method
 
-
-def askQ
-  puts "how old am i?"
-  reply = gets.to_i
+#we want to call a card instead of hard coding the question  in this method
+=begin multilinecomment
+def askQ #creates ask question method, to ask useer the question on the card
+  puts "how old am i?" #the question on the card.
+    reply = gets.to_i  #gets the users answer
   if reply == @answer
     puts "correct"
   else
     puts "wrong"
+  end #end if
+end #end method
+
+=end
+
+  def question
+    puts "#{@question}"
+  end #end method
+
+  def answer
+    puts "#{@answer}"
   end
 
-end
-end
+  def category
+    puts "#{@category}"
+  end
+end#end class
 
-card1 = Card.new("Card1", 26)
-card1.askQ
+card1 = Card.new("what is the element W?", "Tungsten", :science ) #creates new card
 
+#begin calling methods
+card1.question
+card1.answer
+card1.category
 
+#end calling methods
 
 =begin multilinecomment
 class GoodDog
