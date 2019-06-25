@@ -34,12 +34,12 @@ end #end method
   end
 end#end class
 
-card1 = Card.new("what is the element W?", "Tungsten", :science ) #creates new card
+card = Card.new("what is the element W?", "Tungsten", :science ) #creates new card
 
 #begin calling methods
-card1.question
-card1.answer
-card1.category
+card.question
+card.answer
+card.category
 
 #end calling methods
 

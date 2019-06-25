@@ -2,7 +2,7 @@
 below are a few ways you can make arrays.
 arrays hold a list of data
 
-=end
+
 
 array_1 = Array.new
 array_2 = Array.new(5) #creates 5 indexes, will show up nil
@@ -44,3 +44,26 @@ puts "Array Empty: " + array_4.empty?.to_s
 word = ["foo"]
 word[0] = word[0].upcase  # <-- verbatim from your code
 word #=> "Foo"
+
+
+
+#example 10
+nums2 = [100,200,300]
+nums = [1,2,3,4,5]
+puts nums.length ... turing prefererence 
+puts nums.count
+puts nums.size
+puts nums.include?(5) # true
+puts nums << 6 #will add to end of array. shovel can only take a single parameter
+puts nums.push 7 #will @ 7
+#puts nums << nums2
+puts nums.push(nums2)
+
+=end
+
+#example 11
+nums3 = [1,2,3,4,5]
+#puts nums3.pop(2)  #returns 4,5
+
+puts  nums3.shift #takes thing off the front(destructive)
+puts nums3.unshift #takes thing off the back
