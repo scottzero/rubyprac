@@ -30,8 +30,6 @@ array_4.push(100,200)
 #example 6, remove end item
 array_4.pop
 
-#add array all caps functions
-
 
 #example 7, you can concatenate arrays
 array_4.concat([10,10,10]) #will ad this new array to end of our array_4
@@ -41,3 +39,8 @@ puts "array size"  + array_4.size().to_s
 puts "Array contains 100: " + array_4.include?(100).to_s
 puts  "How many 100s:" + array_4.count(100).to_s
 puts "Array Empty: " + array_4.empty?.to_s
+
+#example 9
+word = ["foo"]
+word[0] = word[0].upcase  # <-- verbatim from your code
+word #=> "Foo"
